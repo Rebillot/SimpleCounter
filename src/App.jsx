@@ -28,7 +28,7 @@ export function Counter() {
     <div>
        <div className="contador">
       <div className="row">
-        <div className="col" id='logo'><FontAwesomeIcon icon={faClock}></FontAwesomeIcon></div>
+        <div className="col" id='logo'>LOGO</div>
         <div className="col">{Math.floor(segundos / 1000) % 10}</div>
         <div className="col">{Math.floor(segundos / 100) % 10}</div>
         <div className="col">{Math.floor(segundos / 10) % 10}</div>

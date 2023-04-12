@@ -37,13 +37,13 @@
   
   button{
     background-color: black;
-    color: black;
+    color: blueviolet;
     text-align: center;
     width: 200px;
     height: 25px;
     border-radius: 20px;
     border: none;
-    transition: background-color 0.8s ease-in-out;
+    transition: background-color 0.8s ease-in-out, color 0.8s ease-in-out;
     line-height: 1;
     letter-spacing: 10px;
     font-family: monospace;
